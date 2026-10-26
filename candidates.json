@@ -1,0 +1,751 @@
+[
+  {
+    "id": "cand_001",
+    "name": "Sameer Rao",
+    "target_role": "ML Engineer",
+    "years_experience": 6,
+    "source": "Referral",
+    "skills": [
+      "Spring Boot",
+      "Java",
+      "Kotlin",
+      "Kubernetes",
+      "Next.js"
+    ],
+    "notes": "Sameer has 6 yrs in a large enterprise team — process-heavy environment, unclear how much autonomy they actually had. Worth probing on ownership in the call.",
+    "applied_date": "2026-09-10"
+  },
+  {
+    "id": "cand_002",
+    "name": "Kavya Kaur",
+    "target_role": "Frontend Engineer",
+    "years_experience": 1,
+    "source": "Conference",
+    "skills": [
+      "Redis",
+      "Java",
+      "GCP",
+      "Python",
+      "FastAPI",
+      "Django"
+    ],
+    "notes": "Kavya, 1 yrs experience at a Series B startup, wore multiple hats (frontend engineer, some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-18"
+  },
+  {
+    "id": "cand_003",
+    "name": "Rohit Bhatt",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 8,
+    "source": "Naukri",
+    "skills": [
+      "Kubernetes",
+      "Kotlin",
+      "Django"
+    ],
+    "notes": "Rohit has 8 yrs, strong DSA background from competitive programming, but full-stack breadth is untested — mostly backend-only roles so far.",
+    "applied_date": "2026-09-11"
+  },
+  {
+    "id": "cand_004",
+    "name": "Rohan Bose",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 7,
+    "source": "Naukri",
+    "skills": [
+      "System Design",
+      "Docker",
+      "TypeScript",
+      "MongoDB",
+      "Next.js"
+    ],
+    "notes": "Rohan, 7 yrs experience at a Series B startup, wore multiple hats (mobile engineer (android), some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-01"
+  },
+  {
+    "id": "cand_005",
+    "name": "Anjali Mehta",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 5,
+    "source": "AngelList",
+    "skills": [
+      "Next.js",
+      "REST APIs",
+      "Redis",
+      "Java"
+    ],
+    "notes": "Anjali has 5 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-12"
+  },
+  {
+    "id": "cand_006",
+    "name": "Sonal Nair",
+    "target_role": "Platform Engineer",
+    "years_experience": 3,
+    "source": "Cold Outreach",
+    "skills": [
+      "Kafka",
+      "MongoDB",
+      "AWS"
+    ],
+    "notes": "Sonal has 3 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-13"
+  },
+  {
+    "id": "cand_007",
+    "name": "Swati Malhotra",
+    "target_role": "Frontend Engineer",
+    "years_experience": 8,
+    "source": "Cold Outreach",
+    "skills": [
+      "MongoDB",
+      "LangChain",
+      "Next.js",
+      "Go",
+      "Selenium",
+      "Docker"
+    ],
+    "notes": "Swati has 8 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-10"
+  },
+  {
+    "id": "cand_008",
+    "name": "Yash Agarwal",
+    "target_role": "DevOps Engineer",
+    "years_experience": 8,
+    "source": "Naukri",
+    "skills": [
+      "System Design",
+      "PostgreSQL",
+      "Next.js",
+      "Swift"
+    ],
+    "notes": "Yash, 8 yrs experience at a Series B startup, wore multiple hats (devops engineer, some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-07"
+  },
+  {
+    "id": "cand_009",
+    "name": "Siddharth Mehta",
+    "target_role": "Backend Engineer",
+    "years_experience": 6,
+    "source": "AngelList",
+    "skills": [
+      "Vector DBs",
+      "LLM APIs",
+      "Terraform",
+      "Docker"
+    ],
+    "notes": "Siddharth has 6 yrs building backend engineer systems. Strong on Java and REST APIs. Comfortable owning a feature end to end, mentioned shipping to prod solo at last role.",
+    "applied_date": "2026-09-13"
+  },
+  {
+    "id": "cand_010",
+    "name": "Neha Malhotra",
+    "target_role": "Platform Engineer",
+    "years_experience": 7,
+    "source": "Referral",
+    "skills": [
+      "Kubernetes",
+      "Vector DBs",
+      "LLM APIs",
+      "Redis",
+      "Node.js",
+      "REST APIs"
+    ],
+    "notes": "Neha, 7 yrs, GitHub shows consistent small contributions across several repos, including one AI-tooling side project. Seems curious and self-directed.",
+    "applied_date": "2026-09-15"
+  },
+  {
+    "id": "cand_011",
+    "name": "Payal Nair",
+    "target_role": "DevOps Engineer",
+    "years_experience": 3,
+    "source": "Naukri",
+    "skills": [
+      "Django",
+      "Kafka",
+      "React",
+      "Redis",
+      "Node.js"
+    ],
+    "notes": "Payal, 3 yrs, GitHub shows consistent small contributions across several repos, including one AI-tooling side project. Seems curious and self-directed.",
+    "applied_date": "2026-09-04"
+  },
+  {
+    "id": "cand_012",
+    "name": "Shreya Malhotra",
+    "target_role": "Mobile Engineer (iOS)",
+    "years_experience": 2,
+    "source": "Conference",
+    "skills": [
+      "Python",
+      "Terraform",
+      "MongoDB"
+    ],
+    "notes": "Shreya has 2 yrs building mobile engineer (ios) systems. Strong on Terraform and Node.js. Comfortable owning a feature end to end, mentioned shipping to prod solo at last role.",
+    "applied_date": "2026-09-12"
+  },
+  {
+    "id": "cand_013",
+    "name": "Preeti Iyer",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 5,
+    "source": "Conference",
+    "skills": [
+      "REST APIs",
+      "Spring Boot",
+      "Kubernetes"
+    ],
+    "notes": "Preeti has 5 yrs, strong DSA background from competitive programming, but full-stack breadth is untested — mostly backend-only roles so far.",
+    "applied_date": "2026-09-17"
+  },
+  {
+    "id": "cand_014",
+    "name": "Meera Gupta",
+    "target_role": "DevOps Engineer",
+    "years_experience": 4,
+    "source": "GCCX Sourced",
+    "skills": [
+      "REST APIs",
+      "PostgreSQL",
+      "Cypress",
+      "React",
+      "Go"
+    ],
+    "notes": "Meera has 4 yrs, strong DSA background from competitive programming, but full-stack breadth is untested — mostly backend-only roles so far.",
+    "applied_date": "2026-09-03"
+  },
+  {
+    "id": "cand_015",
+    "name": "Ananya Kaur",
+    "target_role": "Full-Stack Engineer",
+    "years_experience": 8,
+    "source": "AngelList",
+    "skills": [
+      "FastAPI",
+      "Kubernetes",
+      "Go"
+    ],
+    "notes": "Ananya, 8 yrs experience at a Series B startup, wore multiple hats (full-stack engineer, some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-09"
+  },
+  {
+    "id": "cand_016",
+    "name": "Tanya Kapoor",
+    "target_role": "ML Engineer",
+    "years_experience": 8,
+    "source": "University Program",
+    "skills": [
+      "Python",
+      "Vector DBs",
+      "Swift",
+      "Kotlin"
+    ],
+    "notes": "Tanya, 8 yrs experience at a Series B startup, wore multiple hats (ml engineer, some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-17"
+  },
+  {
+    "id": "cand_017",
+    "name": "Kunal Verma",
+    "target_role": "Mobile Engineer (iOS)",
+    "years_experience": 7,
+    "source": "AngelList",
+    "skills": [
+      "GraphQL",
+      "Terraform",
+      "Python",
+      "LangChain",
+      "React"
+    ],
+    "notes": "Kunal has 7 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-16"
+  },
+  {
+    "id": "cand_018",
+    "name": "Isha Chauhan",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 4,
+    "source": "Cold Outreach",
+    "skills": [
+      "REST APIs",
+      "Spring Boot",
+      "Docker",
+      "PostgreSQL",
+      "Selenium",
+      "System Design"
+    ],
+    "notes": "Isha has 4 yrs building mobile engineer (android) systems. Strong on Kubernetes and Spring Boot. Comfortable owning a feature end to end, mentioned shipping to prod solo at last role.",
+    "applied_date": "2026-09-07"
+  },
+  {
+    "id": "cand_019",
+    "name": "Riya Verma",
+    "target_role": "QA / SDET",
+    "years_experience": 4,
+    "source": "Conference",
+    "skills": [
+      "Java",
+      "Swift",
+      "Python",
+      "Next.js",
+      "System Design",
+      "CI/CD"
+    ],
+    "notes": "Riya, 4 yrs, GitHub shows consistent small contributions across several repos, including one AI-tooling side project. Seems curious and self-directed.",
+    "applied_date": "2026-09-13"
+  },
+  {
+    "id": "cand_020",
+    "name": "Arjun Reddy",
+    "target_role": "Mobile Engineer (iOS)",
+    "years_experience": 2,
+    "source": "Naukri",
+    "skills": [
+      "Terraform",
+      "Selenium",
+      "Docker"
+    ],
+    "notes": "Arjun has 2 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-07"
+  },
+  {
+    "id": "cand_021",
+    "name": "Anjali Rao",
+    "target_role": "Mobile Engineer (iOS)",
+    "years_experience": 5,
+    "source": "AngelList",
+    "skills": [
+      "Swift",
+      "Kubernetes",
+      "Spring Boot",
+      "Next.js"
+    ],
+    "notes": "Anjali, 5 yrs, GitHub shows consistent small contributions across several repos, including one AI-tooling side project. Seems curious and self-directed.",
+    "applied_date": "2026-09-01"
+  },
+  {
+    "id": "cand_022",
+    "name": "Rahul Chatterjee",
+    "target_role": "DevOps Engineer",
+    "years_experience": 2,
+    "source": "AngelList",
+    "skills": [
+      "Kotlin",
+      "Vector DBs",
+      "Docker"
+    ],
+    "notes": "Rahul has 2 yrs in a large enterprise team — process-heavy environment, unclear how much autonomy they actually had. Worth probing on ownership in the call.",
+    "applied_date": "2026-09-04"
+  },
+  {
+    "id": "cand_023",
+    "name": "Aarav Chauhan",
+    "target_role": "Full-Stack Engineer",
+    "years_experience": 8,
+    "source": "Cold Outreach",
+    "skills": [
+      "Spring Boot",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Python",
+      "Next.js"
+    ],
+    "notes": "Aarav has 8 yrs in a large enterprise team — process-heavy environment, unclear how much autonomy they actually had. Worth probing on ownership in the call.",
+    "applied_date": "2026-09-12"
+  },
+  {
+    "id": "cand_024",
+    "name": "Aditya Gupta",
+    "target_role": "ML Engineer",
+    "years_experience": 6,
+    "source": "LinkedIn Inbound",
+    "skills": [
+      "Spring Boot",
+      "Swift",
+      "Next.js",
+      "TypeScript",
+      "Redis",
+      "Vector DBs"
+    ],
+    "notes": "Aditya, 6 yrs, GitHub shows consistent small contributions across several repos, including one AI-tooling side project. Seems curious and self-directed.",
+    "applied_date": "2026-09-12"
+  },
+  {
+    "id": "cand_025",
+    "name": "Kunal Chatterjee",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 3,
+    "source": "Conference",
+    "skills": [
+      "React",
+      "FastAPI",
+      "TypeScript",
+      "GraphQL",
+      "REST APIs",
+      "LangChain"
+    ],
+    "notes": "Kunal has 3 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-17"
+  },
+  {
+    "id": "cand_026",
+    "name": "Suresh Malhotra",
+    "target_role": "ML Engineer",
+    "years_experience": 5,
+    "source": "AngelList",
+    "skills": [
+      "GCP",
+      "Spring Boot",
+      "PostgreSQL",
+      "Swift",
+      "Java"
+    ],
+    "notes": "Suresh has 5 yrs building ml engineer systems. Strong on Java and REST APIs. Comfortable owning a feature end to end, mentioned shipping to prod solo at last role.",
+    "applied_date": "2026-09-04"
+  },
+  {
+    "id": "cand_027",
+    "name": "Nisha Chatterjee",
+    "target_role": "Data Engineer",
+    "years_experience": 8,
+    "source": "GCCX Sourced",
+    "skills": [
+      "Docker",
+      "PostgreSQL",
+      "Swift",
+      "REST APIs",
+      "LLM APIs"
+    ],
+    "notes": "Nisha is switching from a services company, 8 yrs experience, mostly maintenance work on legacy Go systems. Wants more product ownership. Communication was a bit scripted on the intro call.",
+    "applied_date": "2026-09-06"
+  },
+  {
+    "id": "cand_028",
+    "name": "Shreya Joshi",
+    "target_role": "Platform Engineer",
+    "years_experience": 3,
+    "source": "AngelList",
+    "skills": [
+      "Kubernetes",
+      "Selenium",
+      "CI/CD",
+      "LangChain",
+      "PostgreSQL"
+    ],
+    "notes": "Shreya, 3 yrs experience at a Series B startup, wore multiple hats (platform engineer, some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-09"
+  },
+  {
+    "id": "cand_029",
+    "name": "Isha Mehta",
+    "target_role": "ML Engineer",
+    "years_experience": 1,
+    "source": "GCCX Sourced",
+    "skills": [
+      "Spring Boot",
+      "System Design",
+      "FastAPI",
+      "Go"
+    ],
+    "notes": "Isha, 1 yrs, came through referral. Built and shipped a side project using Next.js + Vector DBs — genuinely excited talking about it, asked good questions back.",
+    "applied_date": "2026-09-16"
+  },
+  {
+    "id": "cand_030",
+    "name": "Sneha Bose",
+    "target_role": "Backend Engineer",
+    "years_experience": 3,
+    "source": "University Program",
+    "skills": [
+      "Docker",
+      "LangChain",
+      "MongoDB",
+      "FastAPI",
+      "Selenium",
+      "Terraform"
+    ],
+    "notes": "Sneha has 3 yrs building backend engineer systems. Strong on Vector DBs and Selenium. Comfortable owning a feature end to end, mentioned shipping to prod solo at last role.",
+    "applied_date": "2026-09-07"
+  },
+  {
+    "id": "cand_031",
+    "name": "Manoj Nair",
+    "target_role": "Full-Stack Engineer",
+    "years_experience": 8,
+    "source": "Conference",
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "Docker",
+      "AWS"
+    ],
+    "notes": "Manoj has 8 yrs, strong DSA background from competitive programming, but full-stack breadth is untested — mostly backend-only roles so far.",
+    "applied_date": "2026-09-17"
+  },
+  {
+    "id": "cand_032",
+    "name": "Neha Gupta",
+    "target_role": "QA / SDET",
+    "years_experience": 6,
+    "source": "University Program",
+    "skills": [
+      "REST APIs",
+      "Kafka",
+      "PostgreSQL",
+      "Go"
+    ],
+    "notes": "Neha has 6 yrs, strong DSA background from competitive programming, but full-stack breadth is untested — mostly backend-only roles so far.",
+    "applied_date": "2026-09-13"
+  },
+  {
+    "id": "cand_033",
+    "name": "Kavya Menon",
+    "target_role": "ML Engineer",
+    "years_experience": 7,
+    "source": "AngelList",
+    "skills": [
+      "GraphQL",
+      "Selenium",
+      "CI/CD",
+      "LangChain",
+      "MongoDB"
+    ],
+    "notes": "Kavya has 7 yrs, strong DSA background from competitive programming, but full-stack breadth is untested — mostly backend-only roles so far.",
+    "applied_date": "2026-09-03"
+  },
+  {
+    "id": "cand_034",
+    "name": "Manoj Verma",
+    "target_role": "Full-Stack Engineer",
+    "years_experience": 4,
+    "source": "University Program",
+    "skills": [
+      "Next.js",
+      "Redis",
+      "Django",
+      "Terraform",
+      "React",
+      "Selenium"
+    ],
+    "notes": "Manoj, 4 yrs experience at a Series B startup, wore multiple hats (full-stack engineer, some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-05"
+  },
+  {
+    "id": "cand_035",
+    "name": "Tanya Chatterjee",
+    "target_role": "Frontend Engineer",
+    "years_experience": 1,
+    "source": "University Program",
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "Next.js",
+      "PostgreSQL"
+    ],
+    "notes": "Tanya has 1 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-06"
+  },
+  {
+    "id": "cand_036",
+    "name": "Kunal Pillai",
+    "target_role": "Mobile Engineer (iOS)",
+    "years_experience": 3,
+    "source": "Conference",
+    "skills": [
+      "Terraform",
+      "System Design",
+      "Next.js",
+      "Selenium",
+      "Docker",
+      "Vector DBs"
+    ],
+    "notes": "Kunal, 3 yrs, came through referral. Built and shipped a side project using Swift + Kotlin — genuinely excited talking about it, asked good questions back.",
+    "applied_date": "2026-09-04"
+  },
+  {
+    "id": "cand_037",
+    "name": "Alisha Chauhan",
+    "target_role": "DevOps Engineer",
+    "years_experience": 8,
+    "source": "Naukri",
+    "skills": [
+      "Selenium",
+      "AWS",
+      "Next.js"
+    ],
+    "notes": "Alisha has 8 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-07"
+  },
+  {
+    "id": "cand_038",
+    "name": "Riya Bose",
+    "target_role": "ML Engineer",
+    "years_experience": 1,
+    "source": "AngelList",
+    "skills": [
+      "Terraform",
+      "Django",
+      "AWS",
+      "REST APIs"
+    ],
+    "notes": "Riya has 1 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-13"
+  },
+  {
+    "id": "cand_039",
+    "name": "Pooja Desai",
+    "target_role": "Data Engineer",
+    "years_experience": 8,
+    "source": "Referral",
+    "skills": [
+      "TypeScript",
+      "Selenium",
+      "Terraform",
+      "System Design",
+      "Next.js"
+    ],
+    "notes": "Pooja has 8 yrs building data engineer systems. Strong on FastAPI and CI/CD. Comfortable owning a feature end to end, mentioned shipping to prod solo at last role.",
+    "applied_date": "2026-09-04"
+  },
+  {
+    "id": "cand_040",
+    "name": "Divya Chatterjee",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 4,
+    "source": "GCCX Sourced",
+    "skills": [
+      "React",
+      "Kubernetes",
+      "System Design",
+      "AWS"
+    ],
+    "notes": "Divya has 4 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-11"
+  },
+  {
+    "id": "cand_041",
+    "name": "Swati Verma",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 6,
+    "source": "AngelList",
+    "skills": [
+      "Kotlin",
+      "Swift",
+      "Redis",
+      "LLM APIs"
+    ],
+    "notes": "Swati has 6 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-06"
+  },
+  {
+    "id": "cand_042",
+    "name": "Tarun Verma",
+    "target_role": "Frontend Engineer",
+    "years_experience": 4,
+    "source": "Naukri",
+    "skills": [
+      "Docker",
+      "Kotlin",
+      "Vector DBs",
+      "LLM APIs",
+      "Swift",
+      "REST APIs"
+    ],
+    "notes": "Tarun is switching from a services company, 4 yrs experience, mostly maintenance work on legacy LangChain systems. Wants more product ownership. Communication was a bit scripted on the intro call.",
+    "applied_date": "2026-09-09"
+  },
+  {
+    "id": "cand_043",
+    "name": "Harsh Chatterjee",
+    "target_role": "Full-Stack Engineer",
+    "years_experience": 1,
+    "source": "AngelList",
+    "skills": [
+      "Go",
+      "LLM APIs",
+      "Terraform",
+      "System Design"
+    ],
+    "notes": "Harsh has 1 yrs. CV is thin on specifics — lots of buzzwords, few concrete outcomes. Screening call pending.",
+    "applied_date": "2026-09-17"
+  },
+  {
+    "id": "cand_044",
+    "name": "Tarun Iyer",
+    "target_role": "QA / SDET",
+    "years_experience": 1,
+    "source": "Referral",
+    "skills": [
+      "REST APIs",
+      "TypeScript",
+      "Kotlin",
+      "AWS"
+    ],
+    "notes": "Tarun, 1 yrs, GitHub shows consistent small contributions across several repos, including one AI-tooling side project. Seems curious and self-directed.",
+    "applied_date": "2026-09-03"
+  },
+  {
+    "id": "cand_045",
+    "name": "Arjun Kapoor",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 5,
+    "source": "LinkedIn Inbound",
+    "skills": [
+      "Cypress",
+      "Spring Boot",
+      "Kotlin"
+    ],
+    "notes": "Arjun, 5 yrs experience at a Series B startup, wore multiple hats (mobile engineer (android), some DevOps). Uses AI tools daily per LinkedIn posts. No portfolio link provided yet — following up.",
+    "applied_date": "2026-09-08"
+  },
+  {
+    "id": "cand_046",
+    "name": "Nikhil Pillai",
+    "target_role": "Platform Engineer",
+    "years_experience": 5,
+    "source": "AngelList",
+    "skills": [
+      "Selenium",
+      "Spring Boot",
+      "Redis",
+      "Kubernetes",
+      "Django",
+      "Terraform"
+    ],
+    "notes": "Nikhil has 5 yrs building platform engineer systems. Strong on Selenium and LLM APIs. Comfortable owning a feature end to end, mentioned shipping to prod solo at last role.",
+    "applied_date": "2026-09-10"
+  },
+  {
+    "id": "cand_047",
+    "name": "Ritu Kapoor",
+    "target_role": "Mobile Engineer (Android)",
+    "years_experience": 3,
+    "source": "Conference",
+    "skills": [
+      "Kafka",
+      "GCP",
+      "Node.js",
+      "Swift",
+      "Go"
+    ],
+    "notes": "Ritu has 3 yrs in a large enterprise team — process-heavy environment, unclear how much autonomy they actually had. Worth probing on ownership in the call.",
+    "applied_date": "2026-09-15"
+  },
+  {
+    "id": "cand_048",
+    "name": "Amit Chauhan",
+    "target_role": "ML Engineer",
+    "years_experience": 1,
+    "source": "Naukri",
+    "skills": [
+      "AWS",
+      "React",
+      "Java",
+      "Terraform",
+      "Node.js"
+    ],
+    "notes": "Amit is switching from a services company, 1 yrs experience, mostly maintenance work on legacy PostgreSQL systems. Wants more product ownership. Communication was a bit scripted on the intro call.",
+    "applied_date": "2026-09-17"
+  }
+]

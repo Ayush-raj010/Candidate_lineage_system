@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GCCX Candidate Triage</title>
+  <meta name="description" content="Search, rank and shortlist candidates, with evidence-grounded AI fit summaries.">
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <script type="module" src="/static/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to results</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">G</span>
+      <span class="brand-text">GCCX <span>Candidate Triage</span></span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Views">
+      <button type="button" class="tab" role="tab" id="tab-browse" data-view="browse" aria-controls="view-browse" aria-selected="true">Candidates</button>
+      <button type="button" class="tab" role="tab" id="tab-rank" data-view="rank" aria-controls="view-rank" aria-selected="false">Rank by skills</button>
+      <button type="button" class="tab" role="tab" id="tab-activity" data-view="activity" aria-controls="view-activity" aria-selected="false" hidden>Activity</button>
+      <button type="button" class="tab" role="tab" id="tab-users" data-view="users" aria-controls="view-users" aria-selected="false" hidden>Users</button>
+    </nav>
+    <div id="status" class="status" aria-live="polite"></div>
+    <div class="user-menu">
+      <div class="user-id">
+        <span id="user-email" class="user-email"></span>
+        <span id="user-role" class="role-badge"></span>
+      </div>
+      <button type="button" id="change-password" class="btn btn-ghost btn-small">Password</button>
+      <button type="button" id="logout" class="btn btn-small">Sign out</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner" role="alert" hidden></div>
+
+  <main class="layout">
+    <div id="workspace" class="workspace" tabindex="-1">
+      <section id="view-browse" class="view" role="tabpanel" aria-labelledby="tab-browse">
+        <form id="browse-filters" class="toolbar" role="search" autocomplete="off">
+          <label class="field field-search">
+            <span>Search</span>
+            <input type="search" id="f-q" maxlength="100" placeholder="Name, role, notes or skill">
+          </label>
+          <label class="field"><span>Role</span><select id="f-role"></select></label>
+          <label class="field"><span>Source</span><select id="f-source"></select></label>
+          <label class="field"><span>Tag</span><select id="f-tag"></select></label>
+          <label class="field"><span>Shortlist</span><select id="f-shortlisted"></select></label>
+          <label class="field"><span>Sort by</span><select id="f-sort"></select></label>
+          <button type="button" id="f-clear" class="btn btn-ghost">Clear filters</button>
+        </form>
+        <p id="browse-count" class="result-count" aria-live="polite"></p>
+        <div id="browse-results" class="results"></div>
+        <nav id="browse-pager" class="pager" aria-label="Candidate pages" hidden></nav>
+      </section>
+
+      <section id="view-rank" class="view" role="tabpanel" aria-labelledby="tab-rank" hidden>
+        <form id="rank-form" class="toolbar toolbar-rank" autocomplete="off">
+          <div class="field field-skills">
+            <span id="rank-skills-label">Required skills</span>
+            <div class="chip-input" id="rank-chip-box">
+              <ul id="rank-chip-list" class="chip-list" aria-labelledby="rank-skills-label"></ul>
+              <input type="text" id="rank-skill" list="skill-options" maxlength="60"
+                     aria-labelledby="rank-skills-label" placeholder="Type a skill, press Enter">
+            </div>
+          </div>
+          <label class="field"><span>Role</span><select id="r-role"></select></label>
+          <label class="field"><span>Source</span><select id="r-source"></select></label>
+          <button type="submit" class="btn btn-primary">Rank candidates</button>
+        </form>
+        <div id="rank-notice"></div>
+        <p id="rank-count" class="result-count" aria-live="polite"></p>
+        <div id="rank-results" class="results"></div>
+        <nav id="rank-pager" class="pager" aria-label="Ranking pages" hidden></nav>
+      </section>
+
+      <section id="view-activity" class="view" role="tabpanel" aria-labelledby="tab-activity" hidden>
+        <div class="view-head">
+          <h2 id="activity-title">Recruitment activity</h2>
+          <p id="activity-intro" class="muted small"></p>
+        </div>
+        <div id="activity-results" class="results"></div>
+        <nav id="activity-pager" class="pager" aria-label="Activity pages" hidden></nav>
+      </section>
+
+      <section id="view-users" class="view" role="tabpanel" aria-labelledby="tab-users" hidden>
+        <div class="view-head">
+          <h2>Users</h2>
+          <p class="muted small">Accounts can only be created here or from the server's command line. Deactivating an account signs it out everywhere.</p>
+        </div>
+        <form id="user-create" class="toolbar" method="post" action="/" autocomplete="off">
+          <label class="field field-search"><span>Email</span><input type="email" id="new-email" maxlength="254" required></label>
+          <label class="field"><span>Role</span>
+            <select id="new-role">
+              <option value="recruiter">Recruiter</option>
+              <option value="hiring_manager">Hiring manager</option>
+              <option value="admin">Admin</option>
+            </select>
+          </label>
+          <label class="field"><span>Initial password (12+ characters)</span><input type="password" id="new-password" minlength="12" maxlength="128" autocomplete="new-password" required></label>
+          <button type="submit" class="btn btn-primary">Create user</button>
+        </form>
+        <p id="user-create-error" class="field-error" role="alert"></p>
+        <div id="users-results" class="results"></div>
+      </section>
+    </div>
+
+    <div id="backdrop" class="backdrop" hidden></div>
+    <aside id="detail" class="detail" aria-labelledby="detail-title" hidden>
+      <div id="detail-body" class="detail-body"></div>
+    </aside>
+  </main>
+
+  <dialog id="password-dialog" class="dialog" aria-labelledby="password-title">
+    <form id="password-form" class="dialog-body" method="post" action="/" autocomplete="off">
+      <h2 id="password-title">Change your password</h2>
+      <p class="muted small">Your other signed-in devices will be signed out.</p>
+      <label class="field"><span>Current password</span><input type="password" id="pw-current" autocomplete="current-password" required maxlength="1024"></label>
+      <label class="field"><span>New password (12+ characters)</span><input type="password" id="pw-new" autocomplete="new-password" required minlength="12" maxlength="128"></label>
+      <label class="field"><span>Repeat new password</span><input type="password" id="pw-repeat" autocomplete="new-password" required minlength="12" maxlength="128"></label>
+      <p id="pw-error" class="field-error" role="alert"></p>
+      <div class="dialog-actions">
+        <button type="button" id="pw-cancel" class="btn btn-ghost">Cancel</button>
+        <button type="submit" id="pw-submit" class="btn btn-primary">Change password</button>
+      </div>
+    </form>
+  </dialog>
+
+  <datalist id="skill-options"></datalist>
+  <datalist id="tag-options"></datalist>
+  <div id="toasts" class="toasts" aria-live="polite" aria-atomic="false"></div>
+</body>
+</html>

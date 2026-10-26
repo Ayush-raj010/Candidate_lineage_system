@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in · GCCX Candidate Triage</title>
+  <meta name="description" content="Sign in to GCCX Candidate Triage.">
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <script type="module" src="/static/js/login.js"></script>
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <div class="login-card">
+      <div class="brand login-brand">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span class="brand-text">GCCX <span>Candidate Triage</span></span>
+      </div>
+      <h1 id="login-title">Sign in</h1>
+      <p class="muted">Use the account an administrator created for you.</p>
+
+      <div id="login-notice" class="notice" role="status" hidden></div>
+      <div id="login-error" class="login-error" role="alert" hidden></div>
+
+      <!-- method="post": if the form is ever submitted before login.js runs, credentials go in the
+           request body (and get a 405), never into the URL, browser history or server logs. -->
+      <form id="login-form" class="login-form" method="post" action="/login" aria-labelledby="login-title" novalidate>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" id="login-email" name="email" autocomplete="username" required maxlength="254" autofocus>
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <span class="password-row">
+            <input type="password" id="login-password" name="password" autocomplete="current-password" required maxlength="1024">
+            <button type="button" id="login-show" class="btn btn-ghost" aria-controls="login-password" aria-pressed="false">Show</button>
+          </span>
+        </label>
+        <button type="submit" id="login-submit" class="btn btn-primary btn-block" disabled>Sign in</button>
+      </form>
+
+      <section id="demo-accounts" class="demo-accounts" aria-labelledby="demo-title" hidden>
+        <h2 id="demo-title">Demo accounts</h2>
+        <p class="muted small">For local demos only. Pick one to fill in the form.</p>
+        <ul id="demo-list" class="demo-list"></ul>
+      </section>
+
+      <p class="muted small login-help">
+        No account? Ask an administrator. Accounts can't be created from this page.
+      </p>
+    </div>
+  </main>
+</body>
+</html>

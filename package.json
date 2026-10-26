@@ -1,0 +1,9 @@
+{
+  "name": "gccx-candidate-triage-frontend",
+  "private": true,
+  "description": "Frontend unit tests only; the dashboard itself needs no build step or packages.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"tests/frontend/*.test.js\""
+  }
+}
